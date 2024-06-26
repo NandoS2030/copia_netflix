@@ -1,0 +1,50 @@
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    background-color: #000;
+    align-items: center;
+  padding: 0px 15px;
+}
+.logo {
+    width: 110px;
+    height: 50px;
+    
+}
+.inicio{
+    padding: 10px 24px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 8px;
+}
+.contenido{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+  color: white;
+  text-align: center;
+}
+.pelis{
+  font-size: 60px;
+  margin-top: 18px;
+}
+.disfruta{
+  font-size: 25px;
+  margin-top: 18px;
+}
+.quieres{
+  font-size: 25px;
+  margin-top: 18px;
+}
+@media screen and (max-width: 600px) {
+  .suscribete-ahora::after {
+    content: "suscribete";
+  }
+}
